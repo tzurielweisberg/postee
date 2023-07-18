@@ -30,21 +30,14 @@ result = msg {
     msg := sprintf(tpl, [
     input.policy.name,
     input.policy.description,
-
-input.issue.creation_date,
-input.issue.severity,
-input.issue.risks,
-input.issue.remediation,
-input.issue.aqua_link,
-
-input.resource.name,
-input.resource.origin,
-input.resource.type,
-input.resource.category
-
-
-
-
-   
+    input.issue.creation_date,
+    input.issue.severity,
+    input.issue.risks,
+    input.issue.remediation,
+    input.issue.aqua_link,
+    input.resource.name,
+    input.resource.origin,
+    input.resource.type,
+    input.resource.category
     ])
 }
