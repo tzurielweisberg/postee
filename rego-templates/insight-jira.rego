@@ -6,187 +6,45 @@ title = sprintf("%s | Insight on %s", [input.insight.id, input.resource.name])
 
 
 tpl:=`
-_Insight Details_:
-*Insight ID:* %s
-*Description:* %s
-*Impact:* %s
+_Issue Details_:
+*Policy name:* %s
+*Policy descriptioD:* %s
+*Issues's creation date:* %s
 *Severity:* %s
-*Found Date:* %s
-*Last Scan:* %s
-*URL*: %s
+*Risks:* %s
+*Remediation:* %s
+*Link to aqua's platform*: %s
 
 
 _Resource Details_:
-*Resource ID:* %s
 *Resource Name:* %s
-*ARN:* %s
-*Extra Info:* %s
+*Origin:* %s
+*Type:* %s
+*Category:* %s
 
-_Evidence_: 
-%s
 
-_Recommendation_:
-%s
 
-*Response policy name*: %s
-*Response policy application scopes*: %s
 `
-
-vulnsDetails:=`*Resource Kind:* %s
-*Cloud Account:* %s
-*Cloud Provider:* %s
-*Cloud Service:* %s
-*Cloud Region:* %s
-`
-
-sensitiveDetails:=`*Image Name*: %s
-*Registry*: %s
-`
-
-translateSeverity(score) = b {
-	b := "Critical"
-    score == 0
-}
-
-translateSeverity(score) = b {
-	b := "High"
-    score == 1
-}
-
-translateSeverity(score) = b {
-	b := "Medium"
-	score == 2
-}
-
-translateSeverity(score) = b {
-	b := "Low"
-	score == 3
-}
-
-
-vln_list = vlnrb {
-    some i
-	vlnrb := [r |
-                    item := input.evidence.vulnerabilities[i]
-
-                    vlnname := item.name
-                    severity := item.severity
-                    packageName := item.package_name
-                    
-                    r := sprintf("|%s|%s|%s|\n",[vlnname,severity,packageName])
-              ]
-}
-
-malware_list = ml {
-    some i
-	ml := [r |
-                    item := input.evidence.malware[i]
-
-                    name := item.file_name
-                    hash := item.file_hash
-                    path := item.file_path
-                    
-                    r := sprintf("|%s|%s|%s|\n",[name,hash,path])
-              ]
-}
-
-sensitive_list = snt {
-    some i
-	snt := [r |
-                    item := input.evidence.sensitive_data[i]
-
-                    type := item.file_type
-                    path := item.file_path
-                    image := item.image
-                    
-                    r := sprintf("|%s|%s|%s|\n",[type,path,image])
-              ]
-}
-
-concat_list(prefix,list) = output{
-    out := array.concat(prefix, list)
-    x := concat("", out)
-    output := x
-}
-
-
-evidenceTable = table {
-    prefix := ["||*Vulnerability*                    ||*Severity*                    ||*Vulnerable Package*                   ||\n"]
-    list := vln_list
-    table := concat_list(prefix,list)
-    input.evidence.vulnerabilities != null; input.evidence.malware == null; input.evidence.sensitive_data == null
-}
-
-evidenceTable = table {
-    prefix := ["||*Vulnerability*                    ||*Severity*                    ||*Vulnerable Package*                   ||\n"]
-    list := vln_list
-    table := concat_list(prefix,list)
-    input.evidence.vulnerabilities!=null; input.evidence.malware==null; input.evidence.sensitive_data!=null
-}
-
-evidenceTable = table {
-    prefix := ["||*File Name*                    ||*File Hash*                    ||*Path*                   ||\n"]
-    list := malware_list
-    table := concat_list(prefix,list)
-    input.evidence.malware!=null; input.evidence.vulnerabilities==null; input.evidence.sensitive_data==null
-}
-
-evidenceTable = table {
-    prefix := ["||*File Type*                    ||*File Path*                    ||*Image*                   ||\n"]
-    list := sensitive_list
-    table := concat_list(prefix,list)
-    input.evidence.sensitive_data!=null; input.evidence.vulnerabilities==null; input.evidence.malware==null
-}
-
-
-evidenceTable = table {
-	table := input.evidence.privileged_iam_roles
-    input.evidence.privileged_iam_roles!=null; input.evidence.sensitive_data==null; input.evidence.vulnerabilities==null; input.evidence.malware==null
-}
-
-
-
-remediation_with_default(default_value) = default_value{
-  input.evidence.vulnerabilities_remediation==null; input.evidence.sensitive_data_remediation==""; input.evidence.malware_remediation==""
-}
-
-remediation_with_default(default_value) = val{
-  val := input.evidence.vulnerabilities_remediation
-  input.evidence.vulnerabilities_remediation!=null; input.evidence.sensitive_data_remediation==""; input.evidence.malware_remediation==""
-}
-
-remediation_with_default(default_value) = val{
-  val := input.evidence.vulnerabilities_remediation
-  input.evidence.vulnerabilities_remediation!=null; input.evidence.sensitive_data_remediation!=""; input.evidence.malware_remediation==""
-}
-
-remediation_with_default(default_value) = val{
-  val := input.evidence.sensitive_data_remediation
-  val !="";input.evidence.vulnerabilities_remediation==null; input.evidence.malware_remediation==""
-}
-
-remediation_with_default(default_value) = val{
-  val := input.evidence.malware_remediation
-  val != ""; input.evidence.vulnerabilities_remediation==null; input.evidence.sensitive_data_remediation==""
-}
-
 
 result = msg {
     msg := sprintf(tpl, [
-    input.insight.id,
-    input.insight.description,
-    input.insight.impact,
-    translateSeverity(input.insight.priority),
-    substring(input.resource.found_date,0,19),
-    substring(input.resource.last_scanned,0,19),
-    sprintf("https://cloud-dev.aquasec.com/ah/#/insights/%s/resource/%s",[input.insight.id,input.resource.id]),
-    input.resource.id,
-    input.resource.name,
-    input.resource.arn,
-    sprintf("%s",[input.resource.steps]),
-    evidenceTable,
-    remediation_with_default("No Recommendation"),
-    input.response_policy_name,
-    concat(", ", with_default(input, "application_scope", []))
+    input.policy.name,
+    input.policy.description,
+
+input.issue.creation_date,
+input.issue.severity,
+input.issue.risks,
+input.issue.remediation,
+input.issue.aqua_link,
+
+input.resource.name,
+input.resource.origin,
+input.resource.type,
+input.resource.category
+
+
+
+
+   
     ])
 }
