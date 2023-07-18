@@ -4,7 +4,7 @@
 
 ![Docker Pulls][docker-pull]
 [![Go Report Card][report-card-img]][report-card]
-![](https://github.com/aquasecurity/postee/workflows/Go/badge.svg)
+![](https://github.com/tzurielweisberg/postee/workflows/Go/badge.svg)
 [![License][license-img]][license]
 <a href="https://slack.aquasec.com/?_ga=2.51428586.2119512742.1655808394-1739877964.1641199050">
 <img src="https://img.shields.io/static/v1?label=Slack&message=Join+our+Community&color=4a154b&logo=slack">
@@ -13,13 +13,13 @@
 
 [download]: https://img.shields.io/github/downloads/aquasecurity/postee/total?logo=github
 [release-img]: https://img.shields.io/github/release/aquasecurity/postee.png?logo=github
-[release]: https://github.com/aquasecurity/postee/releases
+[release]: https://github.com/tzurielweisberg/postee/releases
 [docker-pull]: https://img.shields.io/docker/pulls/aquasec/postee?logo=docker&label=docker%20pulls%20%2F%20postee
-[go-doc-img]: https://godoc.org/github.com/aquasecurity/postee?status.svg
-[report-card-img]: https://goreportcard.com/badge/github.com/aquasecurity/postee
-[report-card]: https://goreportcard.com/report/github.com/aquasecurity/postee
+[go-doc-img]: https://godoc.org/github.com/tzurielweisberg/postee?status.svg
+[report-card-img]: https://goreportcard.com/badge/github.com/tzurielweisberg/postee
+[report-card]: https://goreportcard.com/report/github.com/tzurielweisberg/postee
 [license-img]: https://img.shields.io/badge/License-mit-blue.svg
-[license]: https://github.com/aquasecurity/postee/blob/master/LICENSE
+[license]: https://github.com/tzurielweisberg/postee/blob/master/LICENSE
 
 
 Postee is a simple message routing application that receives input messages through a webhook interface, and can take enforce actions using predefined outputs via integrations.
@@ -50,4 +50,4 @@ Join the community, and talk to us about any matter in [GitHub Discussions] or [
 [Documentation]: https://aquasecurity.github.io/postee/latest
 [Open Source Work and Portfolio]: https://www.aquasec.com/products/open-source-projects/
 [Slack]: https://slack.aquasec.com/
-[GitHub Discussions]: https://github.com/aquasecurity/postee/discussions
+[GitHub Discussions]: https://github.com/tzurielweisberg/postee/discussions

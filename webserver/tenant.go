@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/aquasecurity/postee/v2/router"
-	"github.com/aquasecurity/postee/v2/utils"
 	"github.com/gorilla/mux"
+	"github.com/tzurielweisberg/postee/v2/router"
+	"github.com/tzurielweisberg/postee/v2/utils"
 )
 
 func (ctx *WebServer) tenantHandler(w http.ResponseWriter, r *http.Request) {

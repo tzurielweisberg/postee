@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/controller"
-	"github.com/aquasecurity/postee/v2/router"
-	"github.com/aquasecurity/postee/v2/runner"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tzurielweisberg/postee/v2/controller"
+	"github.com/tzurielweisberg/postee/v2/router"
+	"github.com/tzurielweisberg/postee/v2/runner"
 )
 
 const (

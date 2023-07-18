@@ -30,7 +30,7 @@ Today Postee supports a wide variety of Postee Actions but the list can be furth
 
 Extending Postee to support a new Action is very simple. You can take a look at this PR to see exactly which places you'll need to modify in order to support a new Action. 
 
-[Link to example PR](https://github.com/aquasecurity/postee/pull/468)
+[Link to example PR](https://github.com/tzurielweisberg/postee/pull/468)
 
 
 ## My idea is not listed here

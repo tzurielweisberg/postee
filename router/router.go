@@ -13,17 +13,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/actions"
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/formatting"
-	"github.com/aquasecurity/postee/v2/msgservice"
-	"github.com/aquasecurity/postee/v2/regoservice"
-	"github.com/aquasecurity/postee/v2/routes"
-	"github.com/aquasecurity/postee/v2/utils"
 	"github.com/ghodss/yaml"
 	"github.com/nats-io/nats-server/v2/server"
 	"github.com/nats-io/nats.go"
+	"github.com/tzurielweisberg/postee/v2/actions"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/formatting"
+	"github.com/tzurielweisberg/postee/v2/msgservice"
+	"github.com/tzurielweisberg/postee/v2/regoservice"
+	"github.com/tzurielweisberg/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/utils"
 )
 
 const (

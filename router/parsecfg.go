@@ -16,7 +16,7 @@ const (
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
   Options supported only in Postee V1 are found in %s. Please make sure app is configured correctly!
-  See https://github.com/aquasecurity/postee/blob/main/README.md for the details.
+  See https://github.com/tzurielweisberg/postee/blob/main/README.md for the details.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 

@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/actions"
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/regoservice"
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/actions"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/regoservice"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 type MsgService struct {

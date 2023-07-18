@@ -1,4 +1,4 @@
-When Postee receives a message it will process it based on routing rules and send it to the appropriate target. How does it know how to do that? Well, this information is defined in Postee's configuration file, [cfg.yaml](https://github.com/aquasecurity/postee/blob/main/cfg.yaml), which contains the following definitions:
+When Postee receives a message it will process it based on routing rules and send it to the appropriate target. How does it know how to do that? Well, this information is defined in Postee's configuration file, [cfg.yaml](https://github.com/tzurielweisberg/postee/blob/main/cfg.yaml), which contains the following definitions:
 
 1. [General settings](/postee/settings)
 2. [Routes](/postee/routes)

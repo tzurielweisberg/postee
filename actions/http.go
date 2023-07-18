@@ -12,8 +12,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/layout"
 	"github.com/tidwall/gjson"
+	"github.com/tzurielweisberg/postee/v2/layout"
 )
 
 var (

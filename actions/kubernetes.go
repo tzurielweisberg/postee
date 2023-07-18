@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/layout"
 	"github.com/tidwall/gjson"
+	"github.com/tzurielweisberg/postee/v2/layout"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"

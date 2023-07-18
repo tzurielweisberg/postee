@@ -3,10 +3,10 @@ package actions
 import (
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/layout"
+	"github.com/tzurielweisberg/postee/v2/layout"
 
-	"github.com/aquasecurity/postee/v2/formatting"
 	"github.com/stretchr/testify/assert"
+	"github.com/tzurielweisberg/postee/v2/formatting"
 )
 
 func Test_buildShortMessage(t *testing.T) {

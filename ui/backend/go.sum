@@ -58,8 +58,8 @@ github.com/agnivade/levenshtein v1.1.1/go.mod h1:veldBMzWxcCG2ZvUTKD2kJNRdCk5hVb
 github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883 h1:bvNMNQO63//z+xNgfBlViaCIJKLlCJ6/fmUseuG0wVQ=
 github.com/aquasecurity/go-jira v0.0.0-20211103111421-b62ce48827be h1:xUasZnauNAn2jY0gfVG+Ro371S31s3SfVUvcjhwIMyI=
 github.com/aquasecurity/go-jira v0.0.0-20211103111421-b62ce48827be/go.mod h1:IHtKzIAdk0t3Xse7rJSY7pJlA8gB7lqY2b4l5WYZYsk=
-github.com/aquasecurity/postee/v2 v2.6.0 h1:3UH5b7LlGLSRMMAMvjCYUwYGbkV1Wa1TQ+nlG7eoO2Y=
-github.com/aquasecurity/postee/v2 v2.6.0/go.mod h1:mAE5BlBooI8z3nWHldckWcCwP1smfIVwPSLtvSAujzM=
+github.com/tzurielweisberg/postee/v2 v2.6.0 h1:3UH5b7LlGLSRMMAMvjCYUwYGbkV1Wa1TQ+nlG7eoO2Y=
+github.com/tzurielweisberg/postee/v2 v2.6.0/go.mod h1:mAE5BlBooI8z3nWHldckWcCwP1smfIVwPSLtvSAujzM=
 github.com/arbovm/levenshtein v0.0.0-20160628152529-48b4e1c0c4d0 h1:jfIu9sQUG6Ig+0+Ap1h4unLjW6YQJpKZVmUzxsD4E/Q=
 github.com/arbovm/levenshtein v0.0.0-20160628152529-48b4e1c0c4d0/go.mod h1:t2tdKJDJF9BV14lnkjHmOQgcvEKgtqs5a1N3LNdJhGE=
 github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a/go.mod h1:lB+ZfQJz7igIIfQNfa7Ml4HSf2uFQQRzpGGRXenZAgY=

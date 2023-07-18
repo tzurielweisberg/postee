@@ -7,12 +7,12 @@ import (
 	"log"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/formatting"
-	"github.com/aquasecurity/postee/v2/layout"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/securityhub"
 	"github.com/aws/aws-sdk-go-v2/service/securityhub/types"
+	"github.com/tzurielweisberg/postee/v2/formatting"
+	"github.com/tzurielweisberg/postee/v2/layout"
 )
 
 type securityHubAPI interface {

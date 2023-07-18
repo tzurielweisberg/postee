@@ -3,7 +3,7 @@ site_url: https://aquasecurity.github.io/postee
 site_description: Integrate vulnerability scanning with a variety of systems.
 docs_dir: docs/
 repo_name: Postee
-repo_url: https://github.com/aquasecurity/postee
+repo_url: https://github.com/tzurielweisberg/postee
 edit_uri: ""
 copyright: Copyright 2019-2022 Aqua Security Software Ltd.
 

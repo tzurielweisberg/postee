@@ -17,7 +17,7 @@ Key | Description | Example
 *legacy-scan-renderer*| Legacy templates are introduced to support Postee V1 renderers. Available values are  "jira", "slack", "html". "jira" should be used for jira integration, "slack" is for slack and "html" is for everything else. | html
 
 !!! tip 
-    Pre made examples for templates can be found [here](https://github.com/aquasecurity/postee/tree/main/rego-templates)
+    Pre made examples for templates can be found [here](https://github.com/tzurielweisberg/postee/tree/main/rego-templates)
 
 ### Customizing Templates
 It is possible to customize templates and even write new ones from scratch. Follow the guide in our advanced section here: [Customizing Templates](advanced.md#Customizing Templates)

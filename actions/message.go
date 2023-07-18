@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/layout"
+	"github.com/tzurielweisberg/postee/v2/layout"
 )
 
 const posteeDocsUrl = "https://aquasecurity.github.io/postee/settings/"

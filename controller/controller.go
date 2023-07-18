@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/router"
 	"github.com/nats-io/nats-server/v2/server"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nkeys"
+	"github.com/tzurielweisberg/postee/v2/router"
 )
 
 const (

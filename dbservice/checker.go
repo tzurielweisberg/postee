@@ -2,9 +2,10 @@ package dbservice
 
 import (
 	"bytes"
-	"github.com/aquasecurity/postee/v2/utils"
 	"log"
 	"time"
+
+	"github.com/tzurielweisberg/postee/v2/utils"
 
 	bolt "go.etcd.io/bbolt"
 )

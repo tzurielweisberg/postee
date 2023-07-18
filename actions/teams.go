@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/aquasecurity/postee/v2/formatting"
-	"github.com/aquasecurity/postee/v2/layout"
-	"github.com/aquasecurity/postee/v2/utils"
+	"github.com/tzurielweisberg/postee/v2/formatting"
+	"github.com/tzurielweisberg/postee/v2/layout"
+	"github.com/tzurielweisberg/postee/v2/utils"
 
-	msteams "github.com/aquasecurity/postee/v2/teams"
+	msteams "github.com/tzurielweisberg/postee/v2/teams"
 )
 
 const (

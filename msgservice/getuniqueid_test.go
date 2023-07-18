@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/routes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 var (
@@ -187,12 +187,12 @@ func TestGetMessageUniqueId(t *testing.T) {
 			filename: "all-in-one-image.json",
 			wantKey:  "sha256:45388de11cfbf5c5d9e2e1418dfeac221c57cfffa1e2fffa833ac283ed029ecf-all-in-one:3.5.19223-Aqua-0-7-30-6",
 		},
-        {
-            props:    []string{"arr.foo"},
-            name:     "Multi Level Property With Collection Of Interfaces",
-            filename: "collection-of-interfaces.json",
-            wantKey:  "bar",
-        },
+		{
+			props:    []string{"arr.foo"},
+			name:     "Multi Level Property With Collection Of Interfaces",
+			filename: "collection-of-interfaces.json",
+			wantKey:  "bar",
+		},
 	}
 
 	for _, test := range tests {

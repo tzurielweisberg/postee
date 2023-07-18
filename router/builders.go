@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/actions"
+	"github.com/tzurielweisberg/postee/v2/actions"
 )
 
 func buildStdoutAction(sourceSettings *ActionSettings) *actions.StdoutAction {

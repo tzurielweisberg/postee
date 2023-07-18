@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/actions"
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/actions"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 var getTicker = func(seconds int) *time.Ticker {

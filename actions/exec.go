@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/formatting"
+	"github.com/tzurielweisberg/postee/v2/formatting"
 
-	"github.com/aquasecurity/postee/v2/layout"
+	"github.com/tzurielweisberg/postee/v2/layout"
 )
 
 type execCmd = func(string, ...string) *exec.Cmd

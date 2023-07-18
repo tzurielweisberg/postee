@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/formatting"
-	"github.com/aquasecurity/postee/v2/layout"
-	servicenow "github.com/aquasecurity/postee/v2/servicenow"
+	"github.com/tzurielweisberg/postee/v2/formatting"
+	"github.com/tzurielweisberg/postee/v2/layout"
+	servicenow "github.com/tzurielweisberg/postee/v2/servicenow"
 )
 
 type ServiceNowAction struct {

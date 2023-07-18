@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/router"
 	"github.com/stretchr/testify/assert"
+	"github.com/tzurielweisberg/postee/v2/router"
 )
 
 func TestWebServer_eventsHandler(t *testing.T) {

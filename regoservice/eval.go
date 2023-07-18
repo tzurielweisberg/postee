@@ -6,10 +6,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/open-policy-agent/opa/rego"
 	"io/fs"
 	"log"
+
+	"github.com/open-policy-agent/opa/rego"
+	"github.com/tzurielweisberg/postee/v2/data"
 )
 
 const (

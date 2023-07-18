@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aquasecurity/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/data"
 )
 
 func getMrkdwnText(text string) string {

@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/aquasecurity/postee/v2/utils"
+	"github.com/tzurielweisberg/postee/v2/utils"
 )
 
 func CreateMessageByWebhook(webhook, content string) error {

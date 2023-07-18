@@ -72,7 +72,7 @@ dockers:
       - "--label=org.opencontainers.image.vendor=Aqua Security"
       - "--label=org.opencontainers.image.version={{ .Version }}"
       - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.source=https://github.com/aquasecurity/postee"
+      - "--label=org.opencontainers.image.source=https://github.com/tzurielweisberg/postee"
       - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
       - "--platform=linux/amd64"
   - dockerfile: Dockerfile.ui
@@ -97,7 +97,7 @@ dockers:
       - "--label=org.opencontainers.image.vendor=Aqua Security"
       - "--label=org.opencontainers.image.version={{ .Version }}"
       - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.source=https://github.com/aquasecurity/postee"
+      - "--label=org.opencontainers.image.source=https://github.com/tzurielweisberg/postee"
       - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
       - "--label=org.opencontainers.image.documentation=https://aquasecurity.github.io/postee/v{{ .Version }}/"
       - "--platform=linux/amd64"

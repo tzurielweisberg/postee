@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/router"
 	"github.com/nats-io/nats.go"
+	"github.com/tzurielweisberg/postee/v2/router"
 )
 
 const (

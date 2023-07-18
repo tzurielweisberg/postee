@@ -9,14 +9,14 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/aquasecurity/postee/v2/controller"
+	"github.com/tzurielweisberg/postee/v2/controller"
 
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/router"
-	"github.com/aquasecurity/postee/v2/runner"
-	"github.com/aquasecurity/postee/v2/utils"
-	"github.com/aquasecurity/postee/v2/webserver"
 	"github.com/spf13/cobra"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/router"
+	"github.com/tzurielweisberg/postee/v2/runner"
+	"github.com/tzurielweisberg/postee/v2/utils"
+	"github.com/tzurielweisberg/postee/v2/webserver"
 )
 
 const (

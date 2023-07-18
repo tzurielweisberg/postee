@@ -1,9 +1,9 @@
-module github.com/aquasecurity/postee/ui/backend
+module github.com/tzurielweisberg/postee/ui/backend
 
 go 1.18
 
 require (
-	github.com/aquasecurity/postee/v2 v2.6.0
+	github.com/tzurielweisberg/postee/v2 v2.6.0
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/securecookie v1.1.1
 	github.com/gorilla/sessions v1.2.1

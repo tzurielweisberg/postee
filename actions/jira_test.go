@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/aquasecurity/go-jira"
-	"github.com/aquasecurity/postee/v2/formatting"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tzurielweisberg/postee/v2/formatting"
 )
 
 var metaIssuetype = &jira.MetaIssueType{Name: "Task", Fields: map[string]interface{}{
