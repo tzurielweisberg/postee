@@ -3,7 +3,7 @@ package boltdb
 import (
 	"time"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 )
 
 func (boltDb *BoltDb) MayBeStoreMessage(message []byte, messageKey string, expired *time.Time) (wasStored bool, err error) {

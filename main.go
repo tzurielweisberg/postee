@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/aquasecurity/postee/v2/router"
-	"github.com/aquasecurity/postee/v2/webserver"
 	"github.com/spf13/cobra"
+	"github.com/tzurielweisberg/postee/v2/router"
+	"github.com/tzurielweisberg/postee/v2/webserver"
 
-	"github.com/aquasecurity/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/log"
 )
 
 const (

@@ -4,18 +4,18 @@
 
 ![Docker Pulls][docker-pull]
 [![Go Report Card][report-card-img]][report-card]
-![](https://github.com/aquasecurity/postee/workflows/Go/badge.svg)
+![](https://github.com/tzurielweisberg/postee/workflows/Go/badge.svg)
 [![License][license-img]][license]
 
 [download]: https://img.shields.io/github/downloads/aquasecurity/postee/total?logo=github
 [release-img]: https://img.shields.io/github/release/aquasecurity/postee.svg?logo=github
-[release]: https://github.com/aquasecurity/postee/releases
+[release]: https://github.com/tzurielweisberg/postee/releases
 [docker-pull]: https://img.shields.io/docker/pulls/aquasec/postee?logo=docker&label=docker%20pulls%20%2F%20postee
-[go-doc-img]: https://godoc.org/github.com/aquasecurity/postee?status.svg
-[report-card-img]: https://goreportcard.com/badge/github.com/aquasecurity/postee
-[report-card]: https://goreportcard.com/report/github.com/aquasecurity/postee
+[go-doc-img]: https://godoc.org/github.com/tzurielweisberg/postee?status.svg
+[report-card-img]: https://goreportcard.com/badge/github.com/tzurielweisberg/postee
+[report-card]: https://goreportcard.com/report/github.com/tzurielweisberg/postee
 [license-img]: https://img.shields.io/badge/License-mit-blue.svg
-[license]: https://github.com/aquasecurity/postee/blob/master/LICENSE
+[license]: https://github.com/tzurielweisberg/postee/blob/master/LICENSE
 
 # Table of Contents
 - [Abstract](#abstract)
@@ -94,7 +94,7 @@ export POSTEE_CFG=<path to cfg.yaml>
 
 ## Postee Configuration File
 
-When Postee receives a message it will process it based on routing rules and send it to the appropriate target. How does it know how to do that? Well, this information is defined in Postee's configuration file, [cfg.yaml](https://github.com/aquasecurity/postee/blob/main/cfg.yaml), which contains the following definitions:
+When Postee receives a message it will process it based on routing rules and send it to the appropriate target. How does it know how to do that? Well, this information is defined in Postee's configuration file, [cfg.yaml](https://github.com/tzurielweisberg/postee/blob/main/cfg.yaml), which contains the following definitions:
 
 1. General settings
 2. Routes
@@ -220,7 +220,7 @@ Key | Description | Example
 *legacy-scan-renderer*| Legacy templates are introduced to support Postee V1 renderers. Available values are  "jira", "slack", "html". "jira" should be used for jira integration, "slack" is for slack and "html" is for everything else. | html
 </details>
 
-> More details about Templates implementation [here](https://github.com/aquasecurity/postee/tree/main/rego-templates)
+> More details about Templates implementation [here](https://github.com/tzurielweisberg/postee/tree/main/rego-templates)
 
 ### Outputs
 Outputs are remote services that messages should be sent to. Each output has two mandatory fields, which are 'name' and 'type'.

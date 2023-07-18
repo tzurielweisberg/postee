@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/layout"
+	"github.com/tzurielweisberg/postee/v2/layout"
 )
 
 func buildShortMessage(server, urls string, provider layout.LayoutProvider) string {

@@ -3,10 +3,10 @@ package regoservice
 import (
 	"encoding/json"
 
-	"github.com/aquasecurity/postee/v2/log"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/open-policy-agent/opa/rego"
 	"github.com/open-policy-agent/opa/types"
+	"github.com/tzurielweisberg/postee/v2/log"
 )
 
 func jsonFmtFunc() func(r *rego.Rego) {

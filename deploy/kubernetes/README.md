@@ -7,7 +7,7 @@ To deploy the Postee Integration on Kubernetes do the following:
 ``` bash
 kubectl create -f https://raw.githubusercontent.com/aquasecurity/postee/main/deploy/kubernetes/postee.yaml
 ```
-> NOTE `See the complete config file in` [postee](https://github.com/aquasecurity/postee/blob/main/cfg.yaml)
+> NOTE `See the complete config file in` [postee](https://github.com/tzurielweisberg/postee/blob/main/cfg.yaml)
 
 ### Kubernetes using HostPath
 

@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/outputs/customsmtp"
 	"github.com/stretchr/testify/assert"
+	"github.com/tzurielweisberg/postee/v2/outputs/customsmtp"
 )
 
 func mockSend(errToReturn error, emailSent *int) (func(string, customsmtp.Auth, string, []string, []byte) error, *emailRecorder) {

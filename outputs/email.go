@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/formatting"
-	"github.com/aquasecurity/postee/v2/layout"
-	"github.com/aquasecurity/postee/v2/log"
-	"github.com/aquasecurity/postee/v2/outputs/customsmtp"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/formatting"
+	"github.com/tzurielweisberg/postee/v2/layout"
+	"github.com/tzurielweisberg/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/outputs/customsmtp"
 )
 
 const (

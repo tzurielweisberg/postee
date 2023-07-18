@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 )
 
 func (postgresDb *PostgresDb) MayBeStoreMessage(message []byte, messageKey string, expired *time.Time) (wasStored bool, err error) {

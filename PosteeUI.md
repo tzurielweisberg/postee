@@ -7,7 +7,7 @@ Postee Admin application shares location of `cfg.yaml` with main webhook app, al
 
 ### Kubernetes for Postee UI application
 
-The manifest is [here](https://github.com/aquasecurity/postee/blob/main/deploy/kubernetes/postee.yaml).
+The manifest is [here](https://github.com/tzurielweisberg/postee/blob/main/deploy/kubernetes/postee.yaml).
 
 It will expose a service `postee-ui-svc` in the port `8000`.
 

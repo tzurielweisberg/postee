@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aquasecurity/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/log"
 )
 
 func parseTimeouts(v string) (int, error) {

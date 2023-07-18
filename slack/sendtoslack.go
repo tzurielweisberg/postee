@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/aquasecurity/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/log"
 )
 
 func SendToUrl(url string, data []byte) error {

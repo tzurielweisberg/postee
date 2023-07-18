@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/log"
 	"github.com/ghodss/yaml"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/log"
 )
 
 const (
@@ -17,7 +17,7 @@ const (
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
   Options supported only in Postee V1 are found in %s. Please make sure app is configured correctly!
-  See https://github.com/aquasecurity/postee/blob/main/README.md for the details.
+  See https://github.com/tzurielweisberg/postee/blob/main/README.md for the details.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 

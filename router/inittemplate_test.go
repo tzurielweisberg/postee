@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/data"
 )
 
 var (
@@ -147,7 +147,7 @@ func (f RoundTripFunc) RoundTrip(req *http.Request) (*http.Response, error) { //
 	return f(req)
 }
 
-//NewTestClient returns *http.Client with Transport replaced to avoid making real calls
+// NewTestClient returns *http.Client with Transport replaced to avoid making real calls
 func NewTestClient(fn RoundTripFunc) *http.Client {
 	return &http.Client{
 		Transport: RoundTripFunc(fn),

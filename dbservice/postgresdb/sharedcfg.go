@@ -3,8 +3,8 @@ package postgresdb
 import (
 	"fmt"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
 	_ "github.com/lib/pq"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 )
 
 var apiKeyName = "POSTEE_API_KEY"

@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/dbservice/boltdb"
-	"github.com/aquasecurity/postee/v2/outputs"
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/dbservice/boltdb"
+	"github.com/tzurielweisberg/postee/v2/outputs"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 func TestAggregateByTimeout(t *testing.T) {

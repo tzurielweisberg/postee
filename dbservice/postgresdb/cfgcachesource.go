@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 )
 
 const emptyCfg = `{}`

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/dbservice/postgresdb"
+	"github.com/tzurielweisberg/postee/v2/dbservice/postgresdb"
 )
 
 func TestConfigurePostgresWithEmptyTenantName(t *testing.T) {

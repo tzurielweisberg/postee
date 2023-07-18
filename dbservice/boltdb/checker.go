@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
-	"github.com/aquasecurity/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
+	"github.com/tzurielweisberg/postee/v2/log"
 	bolt "go.etcd.io/bbolt"
 )
 

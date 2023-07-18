@@ -6,9 +6,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/dbservice/boltdb"
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/dbservice/boltdb"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 var (

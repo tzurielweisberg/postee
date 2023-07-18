@@ -3,7 +3,7 @@ package boltdb
 import (
 	"encoding/json"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 )
 
 func (boltDb *BoltDb) AggregateScans(output string,

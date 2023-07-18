@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
 	"github.com/jmoiron/sqlx"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 )
 
 var insertInTableSharedConfig = func(db *sqlx.DB, tenantName, apikeyname, value string) error {

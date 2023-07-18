@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/outputs"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/outputs"
 
-	"github.com/aquasecurity/postee/v2/msgservice"
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/msgservice"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 var (

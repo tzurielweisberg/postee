@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/log"
-	rego_templates "github.com/aquasecurity/postee/v2/rego-templates"
-	"github.com/aquasecurity/postee/v2/regoservice"
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/log"
+	rego_templates "github.com/tzurielweisberg/postee/v2/rego-templates"
+	"github.com/tzurielweisberg/postee/v2/regoservice"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 const (

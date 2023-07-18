@@ -7,7 +7,7 @@ metadata:
 data:
   cfg.yaml: |
     ---
-    # Reference: https://github.com/aquasecurity/postee/blob/main/cfg.yaml
+    # Reference: https://github.com/tzurielweisberg/postee/blob/main/cfg.yaml
 
     outputs:
       - type: email

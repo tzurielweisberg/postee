@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 type TenantSettings struct {

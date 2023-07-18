@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/log"
-	rego_templates "github.com/aquasecurity/postee/v2/rego-templates"
 	"github.com/open-policy-agent/opa/rego"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/log"
+	rego_templates "github.com/tzurielweisberg/postee/v2/rego-templates"
 )
 
 const (

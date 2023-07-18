@@ -8,13 +8,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/dbservice/boltdb" //nolint - used to get db type in TestConfigFuncs
-	"github.com/aquasecurity/postee/v2/dbservice/postgresdb"
-	"github.com/aquasecurity/postee/v2/outputs" //nolint - used to get Output type in TestEditOutput
-	"github.com/aquasecurity/postee/v2/routes"
 	"github.com/stretchr/testify/assert"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/dbservice/boltdb" //nolint - used to get db type in TestConfigFuncs
+	"github.com/tzurielweisberg/postee/v2/dbservice/postgresdb"
+	"github.com/tzurielweisberg/postee/v2/outputs" //nolint - used to get Output type in TestEditOutput
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 func syncMapLen(m *sync.Map) int {

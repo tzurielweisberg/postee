@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/router"
-	"github.com/aquasecurity/postee/v2/routes"
 	"github.com/stretchr/testify/assert"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/router"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 const (

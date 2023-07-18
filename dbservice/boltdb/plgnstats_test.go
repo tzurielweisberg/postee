@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 	bolt "go.etcd.io/bbolt"
 )
 

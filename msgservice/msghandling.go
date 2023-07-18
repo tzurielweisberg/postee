@@ -8,12 +8,12 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/log"
-	"github.com/aquasecurity/postee/v2/outputs"
-	"github.com/aquasecurity/postee/v2/regoservice"
-	"github.com/aquasecurity/postee/v2/routes"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/outputs"
+	"github.com/tzurielweisberg/postee/v2/regoservice"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 const (
@@ -30,7 +30,7 @@ func (scan *MsgService) MsgHandling(in map[string]interface{}, output outputs.Ou
 		return
 	}
 
-	//TODO marshalling message back to bytes, change after merge with https://github.com/aquasecurity/postee/pull/150
+	//TODO marshalling message back to bytes, change after merge with https://github.com/tzurielweisberg/postee/pull/150
 	input, _ := json.Marshal(in)
 
 	//TODO move logic below somewhere close to Jira output implementation

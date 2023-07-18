@@ -60,7 +60,7 @@ dockers:
       - "--label=org.label-schema.vendor=Aqua Security"
       - "--label=org.label-schema.version={{ .Version }}"
       - "--label=org.label-schema.build-date={{ .Date }}"
-      - "--label=org.label-schema.vcs=https://github.com/aquasecurity/postee"
+      - "--label=org.label-schema.vcs=https://github.com/tzurielweisberg/postee"
       - "--label=org.label-schema.vcs-ref={{ .FullCommit }}"
   - dockerfile: Dockerfile.ui
     use: buildx
@@ -83,5 +83,5 @@ dockers:
       - "--label=org.label-schema.vendor=Aqua Security"
       - "--label=org.label-schema.version={{ .Version }}"
       - "--label=org.label-schema.build-date={{ .Date }}"
-      - "--label=org.label-schema.vcs=https://github.com/aquasecurity/postee"
+      - "--label=org.label-schema.vcs=https://github.com/tzurielweisberg/postee"
       - "--label=org.label-schema.vcs-ref={{ .FullCommit }}"

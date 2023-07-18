@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
-	"github.com/aquasecurity/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
+	"github.com/tzurielweisberg/postee/v2/log"
 )
 
 func (postgresDb *PostgresDb) CheckSizeLimit() {

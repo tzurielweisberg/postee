@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/aquasecurity/postee/v2/dbservice"
-	"github.com/aquasecurity/postee/v2/log"
-	"github.com/aquasecurity/postee/v2/router"
-	"github.com/aquasecurity/postee/v2/utils"
 	"github.com/gorilla/mux"
+	"github.com/tzurielweisberg/postee/v2/dbservice"
+	"github.com/tzurielweisberg/postee/v2/log"
+	"github.com/tzurielweisberg/postee/v2/router"
+	"github.com/tzurielweisberg/postee/v2/utils"
 )
 
 type WebServer struct {

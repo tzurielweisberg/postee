@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/outputs"
-	"github.com/aquasecurity/postee/v2/routes"
 	"github.com/stretchr/testify/assert"
+	"github.com/tzurielweisberg/postee/v2/outputs"
+	"github.com/tzurielweisberg/postee/v2/routes"
 )
 
 func TestScheduler(t *testing.T) {

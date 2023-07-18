@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/data"
 )
 
 //go:embed testdata/*.rego

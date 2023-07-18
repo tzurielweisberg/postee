@@ -3,7 +3,7 @@ package router
 import (
 	"testing"
 
-	"github.com/aquasecurity/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/data"
 )
 
 func TestAnonymizeSettings(t *testing.T) {

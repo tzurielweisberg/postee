@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/dbservice/dbparam"
 	"github.com/jmoiron/sqlx"
+	"github.com/tzurielweisberg/postee/v2/dbservice/dbparam"
 	sqlxmock "github.com/zhashkevych/go-sqlxmock"
 )
 

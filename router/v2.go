@@ -3,7 +3,7 @@ package router
 import (
 	"sync"
 
-	"github.com/aquasecurity/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/data"
 )
 
 func NewV2() (*Router, error) {

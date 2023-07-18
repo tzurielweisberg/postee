@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aquasecurity/postee/v2/data"
-	"github.com/aquasecurity/postee/v2/outputs"
+	"github.com/tzurielweisberg/postee/v2/data"
+	"github.com/tzurielweisberg/postee/v2/outputs"
 )
 
 func buildStdoutOutput(sourceSettings *data.OutputSettings) *outputs.StdoutOutput {
