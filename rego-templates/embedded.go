@@ -64,25 +64,7 @@ func populateTemplates(files embed.FS, storage map[string]string, dirPath string
 			continue
 		}
 
-		bt, err := fs.ReadFile(files, filepath.Join(dirPath, file.Name()))
-		if err != nil {
-			log.Logger.Errorf("failed to read embedded file '%s': %s", file.Name(), err)
-			continue
-		}
-
-		storage[file.Name()] = string(bt)
-	}
-}
-
-func populateTemplate(files embed.FS, storage map[string]string, dirPath string) {
-	dir, err := fs.ReadDir(files, dirPath+"issues-jira.rego")
-	if err != nil {
-		log.Logger.Errorf("failed to read embedded files: %s", err)
-		return
-	}
-
-	for _, file := range dir {
-		if file.IsDir() {
+		if file.Name() != "issues-jira.rego" {
 			continue
 		}
 
